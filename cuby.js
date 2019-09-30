@@ -30,10 +30,12 @@ class Cuby {
 	jump(){
 
 		if(this.y == height-this.side){
+            jump_sfx.play();
 			this.vy = -20;
 		    this.randomColor();
         
         } else if(this.doublejump === true){
+            jump_sfx.play();
             this.vy = -20;
 		    this.randomColor();
             this.accdj -= 1;

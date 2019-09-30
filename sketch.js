@@ -1,13 +1,27 @@
 // Try again button
 let button = null;
+let cuby_sz;
+let cuby;
+let vel;
+let obs;
+let x1, x2;
 
 function preload(){
   // Import our background
-  bg = loadImage('back.png'); 
+  bg = loadImage('assets/back.png'); 
+  
+  // Sounds
+  main_sound = createAudio('assets/main_song.mp3');
+  
+  jump_sfx = loadSound('assets/jump.mp3');
+  jump_sfx.setVolume(0.4);
+  
 }
 
 function setup() {
   createCanvas(800, 600);
+  
+  main_sound.loop();
   
   // Cuby object
   cuby_sz = 40;

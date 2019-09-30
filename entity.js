@@ -12,6 +12,9 @@ class Entity {
 
   gameOver() {
     noLoop();
+    
+    /// Mute sound
+    main_sound.stop();
 
     // Draw Game Over text
     textSize(40);
