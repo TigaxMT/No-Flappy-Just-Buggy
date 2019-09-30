@@ -23,8 +23,7 @@ class Entity {
     button = createButton("Try Again");
     button.style("background-color", color(186,47,47));
     button.style("color", color(0,0,0));
-    translate(width/2, height / 2);
-    button.position(width / 2 - 50,  height / 2 + 50);
+    button.position(width / 2.5,  height / 2 + 50);
     button.mousePressed(reset);
   }
 
