@@ -1,4 +1,4 @@
-# No-Falppy-Just-Buggy
+# No-Flappy-Just-Buggy
 Some fun with p5.js creating a platform game
 
 # Inspiration
